@@ -1,0 +1,55 @@
+.upcoming_events{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:80px 0;
+  .events{
+    display: flex;
+    width:100%;
+    .events_details{
+      flex:1;
+      background: #f27229;
+      padding:40px;
+      h2{
+        color:#fff;
+      }
+      ul{
+        list-style-type: none;
+        li{
+          margin-top: 40px;
+          .event_box{
+            display: flex;
+            gap:20px;
+            .event_date{
+              background: #fff;
+              padding:20px;
+              font-size: 16px;
+              span{
+                font-size: 24px;
+                font-weight: 700;
+              }
+            }
+            .event_info{
+             h3{
+              font-size: 16px;
+              color:#fff;
+              line-height: 1.5;
+             }
+             p{
+              font-size: 14px;
+              color:#fff;
+              line-height: 1.5;
+             }
+            }
+          }
+        }
+      }
+    }
+    .event_image{
+      flex:4;
+      img{
+        width:100%;
+      }
+    }
+  }
+}

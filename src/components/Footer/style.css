@@ -1,0 +1,44 @@
+.main_footer{
+  background:#2B2B2B;
+  padding:80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .content_footer{
+    display: flex;
+    gap:80px;
+    .logo_section{
+      
+      .contact_details{
+        border-left: 1px solid #999;
+        padding-left: 20px;
+        margin-top: 40px;
+        p{
+          color:#fff;
+          padding-top: 10px;
+          color:#999;
+        }
+      }
+    }
+    .others_section{
+      display: flex;
+      justify-content: space-between;
+      gap:60px;
+      .security{
+        h2{
+          color:#fff;
+          font-size: 18px;
+        }
+        ul{
+          list-style-type: none;
+          margin:40px 0;
+          li{
+            color:#999;
+            padding:10px 0;
+
+          }
+        }
+      }
+    }
+  }
+}
