@@ -47,3 +47,19 @@
     }
   }
 }
+
+
+@media screen and (min-width:360px) and (max-width:1199px){
+    .academics{
+    .academic_content{
+      .academic_list{
+        ul{
+          grid-template-columns: repeat(2,1fr);
+        }
+      }
+    }
+  }
+
+
+}
+

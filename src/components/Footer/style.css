@@ -42,3 +42,14 @@
     }
   }
 }
+
+@media screen and (min-width:360px) and (max-width:767px){
+   .main_footer{
+    .content_footer{
+      flex-direction: column;
+      .others_section{
+        flex-direction: column;
+      }
+    }
+  }
+}

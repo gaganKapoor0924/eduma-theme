@@ -79,3 +79,18 @@
     }
   }
 }
+
+@media screen and (min-width:360px) and (max-width:767px){
+  .header_main{
+    .content{
+      .left_head{
+        display: none;
+      }
+    }
+    .small_content{
+      .menu{
+        display: none;
+      }
+    }
+  }
+}
